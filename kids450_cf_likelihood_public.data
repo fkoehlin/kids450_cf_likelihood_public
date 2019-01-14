@@ -17,8 +17,9 @@
 #                                                                   #
 #####################################################################
 
-#kids450_cf_likelihood_public.data_directory = '/your/path/to/KiDS-450_COSMIC_SHEAR_DATA_RELEASE/'
-kids450_cf_likelihood_public.data_directory = '/Users/fkoehlin/kids450/data/correlation_functions/raw/KiDS-450_COSMIC_SHEAR_DATA_RELEASE/'
+# Set the path to the folder 'KiDS-450_COSMIC_SHEAR_DATA_RELEASE' from the uncompressed tarball
+# downloaded from http://kids.strw.leidenuniv.nl/sciencedata.php
+kids450_cf_likelihood_public.data_directory = '/your/path/to/KiDS-450_COSMIC_SHEAR_DATA_RELEASE/'
 
 # Details for dn/dz-file:
 # choose calibration method: CC or DIR
