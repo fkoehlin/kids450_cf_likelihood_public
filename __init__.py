@@ -6,20 +6,22 @@
 # for CFHTLenS data, by adapting Benjamin Audren's Monte Python
 # likelihood euclid_lensing and Adam J Moss's CosmoMC likelihood
 # for weak lensing (adapted itself from JL's CosmoMC likelihood
-# for the COSMOS)
+# for the COSMOS).
 #
 # Adjusted for KiDS-450 correlation function data from Hildebrandt
-# et al. 2017 (arXiv:1606.05338) by Fabian Koehlinger.
+# et al. 2017 (MNRAS, 465, 1454) by Fabian Koehlinger.
 #
-# Data available at: http://kids.strw.leidenuniv.nl/sciencedata.php
+# Data available from:
+#
+# http://kids.strw.leidenuniv.nl/sciencedata.php
 #
 # ATTENTION:
 # 1) This is NOT the likelihood used in their original analysis
 # and the major difference being the usage of HMcode (in the
 # original analysis) vs. a fitting formula for baryon feedback (as
 # used in this likelihood). However, the difference was found to be
-# negligible in the analysis of Koehlinger et al. 2019 (MNRAS, XXX,
-# YYYY; arXiv:1809.01406).
+# negligible in the analysis of Koehlinger et al. 2019 (MNRAS, 484,
+# 3126).
 # 2) This likelihood only produces valid results for \Omega_k = 0,
 # i.e. flat cosmologies!
 ##############################################################
